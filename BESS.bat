@@ -1,0 +1,1 @@
+"C:\RSCAD\BIN\rtdspc.exe" -PP -PSCAD_MASTER "C:\RSCAD" -PSCAD_USER "C:\RTDS_USER" -PSCAD_PATH "C:\RSCAD\BIN" -CONFIG_FILE "C:\RSCAD\HDWR\config_file_02.txt" -case "C:\RTDS_USER\fileman\Yusheng_Luo_RTDS2\BESSTUNEPI\BESS" -rack 2 -verbose -Options "C:\RSCAD\BIN\..\.\BIN\bat.options"

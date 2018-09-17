@@ -1,0 +1,385 @@
+CASE: Test Circuit
+Delt: 50.000000 us 
+Backplane operation set to IEEE mode
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ +----------------------------------------------------------+
+ |                                                          |
+ |                  S U B S Y S T E M #01                   |
+ |                                                          |
+ |                        mapped to                         |
+ |                                                          |
+ |                   R T D S  R A C K #02                   |
+ |                                                          |
+ +----------------------------------------------------------+
+
+
+           C O M P O N E N T   P R O C E S S O R S        
+ ------------------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+RISC-based VSC_NET1 Bridge model named: BRDG1
+   in subsystem: #1
+   is assigned to PB5 Card #2 Processor A
+
+   The Bridge model has 27 small
+     time-steps in each large time-step.
+
+   The small time-step size is 1.851852 microseconds.
+
+   The calculation time permitted for each
+     small time-step is 1751 nanoseconds.
+
+   Any T0 output is scheduled for small step number: 2.
+   Any T2 output is scheduled for small step number: 13.
+
+   A User specified safety margin of  360 nSec
+     is added to the the expected small-step execution time
+     to avoid small time-step calculation overflow.
+
+   The small-step code on the first PB5 processor
+     would be expected to take 1650 clocks to execute
+     ( 1650 nSec ) on a GPC processor without the margin.
+     On the PB5, the code is expected to take
+     approximately 1375 nSec without the margin.
+     Including the margin, the expected small-step execution
+     time on the first PB5 processor is 1735 nSec.
+
+   Based on a consideration of all the processors in the
+     connected bridge group, the small-step execution time
+     on all processors in the connected bridge group 
+     is selected as 1735 nSec including margin.
+
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+   The following is the order of execution of VSC components 
+     that have both named-signal input and named-signal output.
+     These components are referred to as "mid-list" components
+     because they come after components that have exclusively
+     named-signal output ( "prefix" components )
+     and before components that have exclusively
+     named-signal input ( "suffix" components ).
+
+      Model BRDG1, processor No. 1
+         VSC comp type:  vsc_triwav,  VSC comp name:  TWGEN1
+         VSC comp type:  vsc_triwav,  VSC comp name:  TWGEN2
+         VSC comp type:  vsc_triwav,  VSC comp name:  TWGEN3
+         VSC comp type:  vsc_triwav3,  VSC comp name:  TW3GEN1
+         VSC comp type:  vsc_3lgfir,  VSC comp name:  FPGEN1
+         VSC comp type:  vsc_3lgfir,  VSC comp name:  FPGEN2
+         VSC comp type:  vsc_3lgfir,  VSC comp name:  FPGEN3
+         VSC comp type:  ph1lev3,  VSC comp name:  LEG1
+         VSC comp type:  ph1lev3,  VSC comp name:  LEG2
+         VSC comp type:  ph1lev3,  VSC comp name:  LEG3
+         VSC comp type:  vsc_brc3,  VSC comp name:  BRCDC
+         VSC comp type:  vsc_brc3,  VSC comp name:  BRCDC2
+         VSC comp type:  vsc_brc3,  VSC comp name:  BRL
+         VSC comp type:  vsc_brc3,  VSC comp name:  BRSRC
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+  VSC component model of type "vsc_3lgfir"
+   named: FPGEN1
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+
+  VSC component model of type "vsc_3lgfir"
+   named: FPGEN2
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+
+  VSC component model of type "vsc_3lgfir"
+   named: FPGEN3
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+
+  VSC component model of type "ph1lev3"
+   named: LEG1
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+   Valve ON  inductance is: 0.000196014 Henries
+   Valve OFF series capacitance is: 0.0220515 microF
+   Valve OFF series resistance  is: 169.706 Ohms
+
+   Valve ON  impedance at fundamental is: 0.0738954 Ohms
+   Valve OFF impedance at fundamental is: 120290 Ohms
+   Resistance Parallel to Valve is: 601451 Ohms
+
+  VSC component model of type "ph1lev3"
+   named: LEG2
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+   Valve ON  inductance is: 0.000196014 Henries
+   Valve OFF series capacitance is: 0.0220515 microF
+   Valve OFF series resistance  is: 169.706 Ohms
+
+   Valve ON  impedance at fundamental is: 0.0738954 Ohms
+   Valve OFF impedance at fundamental is: 120290 Ohms
+   Resistance Parallel to Valve is: 601451 Ohms
+
+  VSC component model of type "ph1lev3"
+   named: LEG3
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+   Valve ON  inductance is: 0.000196014 Henries
+   Valve OFF series capacitance is: 0.0220515 microF
+   Valve OFF series resistance  is: 169.706 Ohms
+
+   Valve ON  impedance at fundamental is: 0.0738954 Ohms
+   Valve OFF impedance at fundamental is: 120290 Ohms
+   Resistance Parallel to Valve is: 601451 Ohms
+
+  VSC component model of type "vsc_brc3"
+   named: BRCDC
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+
+  VSC component model of type "vsc_brc3"
+   named: BRCDC2
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+
+  VSC component model of type "vsc_brc3"
+   named: BRL
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+   This branch contains a series inductor of 0.005 Henries
+   A damping resistance of 16200 Ohms
+    has been placed parallel to the inductor.
+
+  VSC component model of type "vsc_brc3"
+   named: BRSRC
+   within the BRIDGE named: BRDG1
+   in subsystem: #1
+   is assigned to GPC Card #2 Processor A
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+  VSC NETWORK SOLUTION STATISTICS for processor number 1 (1toN) of Bridge Box "BRDG1".
+
+   On processor number 1 (1toN) of BB "BRDG1", the network solution for all of
+     the non-switched node groups solved using the W-matrix
+     approach ( not inverse G-matrix ) is expected to require 119 clocks
+     of execution time.
+     There are 8 voltages calculated on this processor in this way.
+     The non-switched groups solved by W-matrix contain 8 nodes in total.
+     There are 38 factors stored for the non-switched groups solved by W-matrix.
+     There are 9 factors stored for Li.
+     There are 29 factors stored for Ui_Di.
+
+   VSC NETWORK SOLUTION on Bridge_Box processor 1 (1toN):
+             Total clock count   = 119
+             Block1 memory bytes = 304 initially loaded in L1 cache
+             Block2 memory bytes = 0 initially loaded in L2 cache
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+RISC-based CModel Component: _li_ion named "BatN" --> RPC-GPC Card #2 Processor B
+
+
+RISC-based CModel Component: _li_ion named "BatP" --> RPC-GPC Card #2 Processor B
+
+
+RISC CONTROLS COMPONENTS(proc 1) --> RPC-GPC Card #1 Processor B
+	RISC ARAMP function
+	RISC realpl_cb function
+	RISC time_cb function
+	RISC realpl_cb function
+	RISC realpl_cb function
+	RISC realpl_cb function
+	RISC rms_meter function
+	RISC PLLT2v2 function
+	RISC pqmetX01 function
+	RISC realpl_cb function
+	RISC realpl_cb function
+	RISC sum3_B function
+	RISC gain_cb function
+	RISC mul_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC sum3_B function
+	RISC gain_cb function
+	RISC srff_A function
+	RISC realpl_cb function
+	RISC limits_cb function
+	RISC gain_cb function
+	RISC rampg_cb function
+	RISC gain_cb function
+	RISC intgl_cb function
+	RISC intgl_cb function
+	RISC dtdel_cb function
+	RISC sum3_B function
+	RISC sum3_A function
+	RISC logicX01 function
+	RISC mul_A function
+	RISC realpl_cb function
+	RISC mul_B function
+	RISC sum3_A function
+	RISC not_cb function
+	RISC mul_B function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC anglefix_ function
+	RISC limits_cb function
+	RISC anglefix_ function
+	RISC sine3_cb function
+	RISC anglefix_ function
+	RISC abc2dq0_cb function
+	RISC gain_cb function
+	RISC abc2dq0_cb function
+	RISC gain_cb function
+	RISC mul_B function
+	RISC mul_B function
+	RISC realpl_cb function
+	RISC realpl_cb function
+	RISC mul_B function
+	RISC mul_B function
+	RISC xdivy_cb function
+	RISC xdivy_cb function
+	RISC sine3_cb function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC mul_B function
+	RISC intgl_cb function
+	RISC intgl_cb function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC gain_cb function
+	RISC dq02abc_cb function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC sum3_B function
+	RISC xdivy_cb function
+	RISC xdivy_cb function
+	RISC xdivy_cb function
+
+RISC-based Network Solution for Subsystem #1 uses -->  
+                 RPC-GPC Card #1 Processor A
+  Network Solution Statistics for 1A:
+   All processors in the case that do calculations for stacked
+   Power System models are NOT PB5 with GT fibres in place and
+   enabled for T0 communication with PB5 network solution processors.
+   Therefore, the maximum number of nodes on a processor is 72 nodes instead of 90.
+     Number of nodes on this processor: 3
+     Number of G values passed to this proc: 2
+     Number of matrix pointers passed to this proc: 0
+     Number of columns dynamically decomposed by this proc: 2
+     Number of multiply-subtract operations
+         for dynamic decomposition on this proc: 0
+     Number of clocks pre-T0:       219
+           ( time = 2.190000e-001 uSec. )       
+     Number of clocks in main:      484
+              ( decomposition:      193 )
+              ( forward-backward:   135 )
+           ( time = 4.840000e-001 uSec. )       
+     The fill of the decomposed lower matrix is: 3 of 6 locations.
+
+
+    Hidden T2 Transfer List
+--------------------------------
+BP_Address  Signal_Type       Signal_name
+0x11E       named_signal_prc  VSRCA
+0x11F       named_signal_prc  VSRCB
+0x120       named_signal_prc  VSRCC
+0x121       named_signal_prc  FPOUT1
+0x122       named_signal_prc  FPOUT2
+0x123       named_signal_prc  FPOUT3
+0x124       named_signal_prc  VLTLG1
+0x125       named_signal_prc  CRTLG1
+0x126       named_signal_prc  PSRC
+0x127       named_signal_prc  VSC1A
+0x128       named_signal_prc  VSC1B
+0x129       named_signal_prc  VSC1C
+0x12A       named_signal_prc  CLKSPR1
+0x12B       named_signal_prc  SOCn
+0x12C       named_signal_prc  SOCp
+0x12D       named_signal_prc  INORTN
+0x12E       named_signal_prc  INORTN2
+0x12F       named_signal_prc  INORTP
+0x130       named_signal_prc  intT
+0x131       named_signal_prc  time
+0x132       named_signal_prc  vrms
+0x133       named_signal_prc  PML6
+0x134       named_signal_prc  QML6
+0x135       named_signal_prc  VAVG
+0x136       named_signal_prc  Start3
+0x137       named_signal_prc  Stop3
+0x138       named_signal_prc  VLNPEAK
+0x139       named_signal_prc  SRCW
+0x13A       named_signal_prc  VNold
+0x13B       named_signal_prc  VPold
+0x13C       named_signal_prc  BLK
+0x13D       named_signal_prc  RST3
+0x13E       named_signal_prc  PHIO
+0x13F       named_signal_prc  PHI3
+0x140       named_signal_prc  ALPHA
+0x141       named_signal_prc  Id3
+0x142       named_signal_prc  Iq3
+0x143       named_signal_prc  Vd3
+0x144       named_signal_prc  Vq3
+0x145       named_signal_prc  pc
+0x146       named_signal_prc  qc
+0x147       named_signal_prc  Iq3FIL
+0x148       named_signal_prc  Id3FIL
+0x149       named_signal_prc  Iref_q3
+0x14A       named_signal_prc  Iref_d3
+0x14B       named_signal_prc  ERRq3
+0x14C       named_signal_prc  ERRd3
+0x14D       named_signal_prc  Vds
+0x14E       named_signal_prc  Vqs
+0x14F       named_signal_prc  VA
+0x150       named_signal_prc  VB
+0x151       named_signal_prc  VC
+0x152       named_signal_prc  VCp
+0x153       named_signal_prc  VAp
+0x154       named_signal_prc  VBp
+0x155       node_voltage      test
+
+
+       T I M E - S T E P   I N F O R M A T I O N         
+                 S U B S Y S T E M   1
+ ==========================================================
+
+
+  Backplane Communication Speed = 60.000000 ns
+  T0 communication time 0.4200 us
+  T2 communication time 5.1600 us
+
+
+  Minimum time-step 9.9999 us
+
+	 Common Current Injections: 0(local) + 0(xrack)

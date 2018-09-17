@@ -1,0 +1,10 @@
+STARTING RACK NUMBER 2
+# Proc	ComponentType:Name	Load
+#----------------------------------------------------------------------------------------
+SUBSYSTEM 1
+#----------------------
+0   NetworkSolution  120
+1   ControlsProcessor1  120
+2   VSCNetwork:BRDG1   120
+3   _li_ion:BatN   10
+3   _li_ion:BatP   10

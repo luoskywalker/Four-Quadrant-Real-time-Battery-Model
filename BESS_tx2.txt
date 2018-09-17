@@ -1,0 +1,102 @@
+
+  Subsystem Number 1 
+  ********************
+  ********************
+
+       Flag T3
+       *******
+
+       Flag T0
+       *******
+        0  100   local_used     SS1         cadr_injn    0  "" from ppc_main   3  xrack_src_idx =   -1  for node =   2  
+        1  101   local_used     SS1         cadr_injn    1  "" from ppc_main   3  xrack_src_idx =   -1  for node =   1  
+        2  102   local_used     SS1        gadr_gvalu    0  "" from ppc_main   3  xrack_src_idx =   -1  
+        3  103   local_used     SS1        gadr_gvalu    1  "" from ppc_main   3  xrack_src_idx =   -1  
+
+       Flag T1
+       *******
+
+       Flag T2
+       *******
+        0  104   local_used     SS1  named_signal_prc    8     "Idcp" from ppc_main   2  xrack_src_idx =   -1  
+        1  105   local_used     SS1  named_signal_prc    9     "Idcn" from ppc_main   2  xrack_src_idx =   -1  
+        2  106   local_used     SS1  named_signal_prc   10      "IAP" from ppc_main   2  xrack_src_idx =   -1  
+        3  107   local_used     SS1  named_signal_prc   11      "IBP" from ppc_main   2  xrack_src_idx =   -1  
+        4  108   local_used     SS1  named_signal_prc   12      "ICP" from ppc_main   2  xrack_src_idx =   -1  
+        5  109   local_used     SS1  named_signal_prc   14      "N16" from ppc_main   2  xrack_src_idx =   -1  
+        6  10A   local_used     SS1  named_signal_prc   15      "N26" from ppc_main   2  xrack_src_idx =   -1  
+        7  10B   local_used     SS1  named_signal_prc   16      "N36" from ppc_main   2  xrack_src_idx =   -1  
+        8  10C   local_used     SS1  named_signal_prc   27       "VP" from ppc_main   1  xrack_src_idx =   -1  
+        9  10D   local_used     SS1  named_signal_prc   29  "Idcpfil" from ppc_main   1  xrack_src_idx =   -1  
+       10  10E   local_used     SS1  named_signal_prc   30  "Idcnfil" from ppc_main   1  xrack_src_idx =   -1  
+       11  10F   local_used     SS1  named_signal_prc   31       "VN" from ppc_main   1  xrack_src_idx =   -1  
+       12  110   local_used     SS1  named_signal_prc   36  "TOMEGA1" from ppc_main   1  xrack_src_idx =   -1  
+       13  111   local_used     SS1  named_signal_prc   44   "DBLK63" from ppc_main   1  xrack_src_idx =   -1  
+       14  112   local_used     SS1  named_signal_prc   49  "TANGLE1" from ppc_main   1  xrack_src_idx =   -1  
+       15  113   local_used     SS1  named_signal_prc   50  "VSRC1PR" from ppc_main   1  xrack_src_idx =   -1  
+       16  114   local_used     SS1  named_signal_prc   51  "VSRC2PR" from ppc_main   1  xrack_src_idx =   -1  
+       17  115   local_used     SS1  named_signal_prc   52  "VSRC3PR" from ppc_main   1  xrack_src_idx =   -1  
+       18  116   local_used     SS1  named_signal_prc   63   "VSRC1P" from ppc_main   1  xrack_src_idx =   -1  
+       19  117   local_used     SS1  named_signal_prc   64   "VSRC2P" from ppc_main   1  xrack_src_idx =   -1  
+       20  118   local_used     SS1  named_signal_prc   65   "VSRC3P" from ppc_main   1  xrack_src_idx =   -1  
+       21  119   local_used     SS1  named_signal_prc   76      "VCx" from ppc_main   1  xrack_src_idx =   -1  
+       22  11A   local_used     SS1  named_signal_prc   77      "VBx" from ppc_main   1  xrack_src_idx =   -1  
+       23  11B   local_used     SS1  named_signal_prc   78      "VAx" from ppc_main   1  xrack_src_idx =   -1  
+       24  11C   local_used     SS1      node_voltage    1    "VPraw" from ppc_main   0  xrack_src_idx =   -1  for node =   1  
+       25  11D   local_used     SS1      node_voltage    2    "VNraw" from ppc_main   0  xrack_src_idx =   -1  for node =   2  
+       26  11E local_unused     SS1  named_signal_prc    0    "VSRCA" from ppc_main   2  xrack_src_idx =   -1  
+       27  11F local_unused     SS1  named_signal_prc    1    "VSRCB" from ppc_main   2  xrack_src_idx =   -1  
+       28  120 local_unused     SS1  named_signal_prc    2    "VSRCC" from ppc_main   2  xrack_src_idx =   -1  
+       29  121 local_unused     SS1  named_signal_prc    3   "FPOUT1" from ppc_main   2  xrack_src_idx =   -1  
+       30  122 local_unused     SS1  named_signal_prc    4   "FPOUT2" from ppc_main   2  xrack_src_idx =   -1  
+       31  123 local_unused     SS1  named_signal_prc    5   "FPOUT3" from ppc_main   2  xrack_src_idx =   -1  
+       32  124 local_unused     SS1  named_signal_prc    6   "VLTLG1" from ppc_main   2  xrack_src_idx =   -1  
+       33  125 local_unused     SS1  named_signal_prc    7   "CRTLG1" from ppc_main   2  xrack_src_idx =   -1  
+       34  126 local_unused     SS1  named_signal_prc   13     "PSRC" from ppc_main   2  xrack_src_idx =   -1  
+       35  127 local_unused     SS1  named_signal_prc   17    "VSC1A" from ppc_main   2  xrack_src_idx =   -1  
+       36  128 local_unused     SS1  named_signal_prc   18    "VSC1B" from ppc_main   2  xrack_src_idx =   -1  
+       37  129 local_unused     SS1  named_signal_prc   19    "VSC1C" from ppc_main   2  xrack_src_idx =   -1  
+       38  12A local_unused     SS1  named_signal_prc   20  "CLKSPR1" from ppc_main   2  xrack_src_idx =   -1  
+       39  12B local_unused     SS1  named_signal_prc   21     "SOCn" from ppc_main   3  xrack_src_idx =   -1  
+       40  12C local_unused     SS1  named_signal_prc   22     "SOCp" from ppc_main   3  xrack_src_idx =   -1  
+       41  12D local_unused     SS1  named_signal_prc   23   "INORTN" from ppc_main   0  xrack_src_idx =   -1  
+       42  12E local_unused     SS1  named_signal_prc   24  "INORTN2" from ppc_main   0  xrack_src_idx =   -1  
+       43  12F local_unused     SS1  named_signal_prc   25   "INORTP" from ppc_main   0  xrack_src_idx =   -1  
+       44  130 local_unused     SS1  named_signal_prc   26     "intT" from ppc_main   1  xrack_src_idx =   -1  
+       45  131 local_unused     SS1  named_signal_prc   28     "time" from ppc_main   1  xrack_src_idx =   -1  
+       46  132 local_unused     SS1  named_signal_prc   32     "vrms" from ppc_main   1  xrack_src_idx =   -1  
+       47  133 local_unused     SS1  named_signal_prc   33     "PML6" from ppc_main   1  xrack_src_idx =   -1  
+       48  134 local_unused     SS1  named_signal_prc   34     "QML6" from ppc_main   1  xrack_src_idx =   -1  
+       49  135 local_unused     SS1  named_signal_prc   35     "VAVG" from ppc_main   1  xrack_src_idx =   -1  
+       50  136 local_unused     SS1  named_signal_prc   37   "Start3" from ppc_main   1  xrack_src_idx =   -1  
+       51  137 local_unused     SS1  named_signal_prc   38    "Stop3" from ppc_main   1  xrack_src_idx =   -1  
+       52  138 local_unused     SS1  named_signal_prc   39  "VLNPEAK" from ppc_main   1  xrack_src_idx =   -1  
+       53  139 local_unused     SS1  named_signal_prc   40     "SRCW" from ppc_main   1  xrack_src_idx =   -1  
+       54  13A local_unused     SS1  named_signal_prc   41    "VNold" from ppc_main   1  xrack_src_idx =   -1  
+       55  13B local_unused     SS1  named_signal_prc   42    "VPold" from ppc_main   1  xrack_src_idx =   -1  
+       56  13C local_unused     SS1  named_signal_prc   43      "BLK" from ppc_main   1  xrack_src_idx =   -1  
+       57  13D local_unused     SS1  named_signal_prc   45     "RST3" from ppc_main   1  xrack_src_idx =   -1  
+       58  13E local_unused     SS1  named_signal_prc   46     "PHIO" from ppc_main   1  xrack_src_idx =   -1  
+       59  13F local_unused     SS1  named_signal_prc   47     "PHI3" from ppc_main   1  xrack_src_idx =   -1  
+       60  140 local_unused     SS1  named_signal_prc   48    "ALPHA" from ppc_main   1  xrack_src_idx =   -1  
+       61  141 local_unused     SS1  named_signal_prc   53      "Id3" from ppc_main   1  xrack_src_idx =   -1  
+       62  142 local_unused     SS1  named_signal_prc   54      "Iq3" from ppc_main   1  xrack_src_idx =   -1  
+       63  143 local_unused     SS1  named_signal_prc   55      "Vd3" from ppc_main   1  xrack_src_idx =   -1  
+       64  144 local_unused     SS1  named_signal_prc   56      "Vq3" from ppc_main   1  xrack_src_idx =   -1  
+       65  145 local_unused     SS1  named_signal_prc   57       "pc" from ppc_main   1  xrack_src_idx =   -1  
+       66  146 local_unused     SS1  named_signal_prc   58       "qc" from ppc_main   1  xrack_src_idx =   -1  
+       67  147 local_unused     SS1  named_signal_prc   59   "Iq3FIL" from ppc_main   1  xrack_src_idx =   -1  
+       68  148 local_unused     SS1  named_signal_prc   60   "Id3FIL" from ppc_main   1  xrack_src_idx =   -1  
+       69  149 local_unused     SS1  named_signal_prc   61  "Iref_q3" from ppc_main   1  xrack_src_idx =   -1  
+       70  14A local_unused     SS1  named_signal_prc   62  "Iref_d3" from ppc_main   1  xrack_src_idx =   -1  
+       71  14B local_unused     SS1  named_signal_prc   66    "ERRq3" from ppc_main   1  xrack_src_idx =   -1  
+       72  14C local_unused     SS1  named_signal_prc   67    "ERRd3" from ppc_main   1  xrack_src_idx =   -1  
+       73  14D local_unused     SS1  named_signal_prc   68      "Vds" from ppc_main   1  xrack_src_idx =   -1  
+       74  14E local_unused     SS1  named_signal_prc   69      "Vqs" from ppc_main   1  xrack_src_idx =   -1  
+       75  14F local_unused     SS1  named_signal_prc   70       "VA" from ppc_main   1  xrack_src_idx =   -1  
+       76  150 local_unused     SS1  named_signal_prc   71       "VB" from ppc_main   1  xrack_src_idx =   -1  
+       77  151 local_unused     SS1  named_signal_prc   72       "VC" from ppc_main   1  xrack_src_idx =   -1  
+       78  152 local_unused     SS1  named_signal_prc   73      "VCp" from ppc_main   1  xrack_src_idx =   -1  
+       79  153 local_unused     SS1  named_signal_prc   74      "VAp" from ppc_main   1  xrack_src_idx =   -1  
+       80  154 local_unused     SS1  named_signal_prc   75      "VBp" from ppc_main   1  xrack_src_idx =   -1  
+       81  155 local_unused     SS1      node_voltage    3     "test" from ppc_main   0  xrack_src_idx =   -1  for node =   3  

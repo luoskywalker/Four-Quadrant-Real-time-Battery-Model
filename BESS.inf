@@ -1,0 +1,210 @@
+CASE: Test Circuit
+Delt: 50.000000 us 
+Rack: 2 NoRealTime: 0
+
+Output Desc="VSRCA" Group="Subsystem #1|BRIDGE|BRDG1|TWGEN1" Units="none" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200478
+Output Desc="VSRCB" Group="Subsystem #1|BRIDGE|BRDG1|TWGEN2" Units="none" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=20047C
+Output Desc="VSRCC" Group="Subsystem #1|BRIDGE|BRDG1|TWGEN3" Units="none" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200480
+Output Desc="FPOUT1" Group="Subsystem #1|BRIDGE|BRDG1|FPGEN1" Units="none" Type=INT Min=0 Max=64 Rack=2 Adr=200484
+Output Desc="FPOUT2" Group="Subsystem #1|BRIDGE|BRDG1|FPGEN2" Units="none" Type=INT Min=0 Max=64 Rack=2 Adr=200488
+Output Desc="FPOUT3" Group="Subsystem #1|BRIDGE|BRDG1|FPGEN3" Units="none" Type=INT Min=0 Max=64 Rack=2 Adr=20048C
+Output Desc="VLTLG1" Group="Subsystem #1|BRIDGE|BRDG1|LEG1" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=200490
+Output Desc="CRTLG1" Group="Subsystem #1|BRIDGE|BRDG1|LEG1" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200494
+Output Desc="Idcp" Group="Subsystem #1|BRIDGE|BRDG1|BRCDC" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200410
+Output Desc="Idcn" Group="Subsystem #1|BRIDGE|BRDG1|BRCDC2" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200414
+Output Desc="IAP" Group="Subsystem #1|BRIDGE|BRDG1|BRL" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200418
+Output Desc="IBP" Group="Subsystem #1|BRIDGE|BRDG1|BRL" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=20041C
+Output Desc="ICP" Group="Subsystem #1|BRIDGE|BRDG1|BRL" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=200420
+Output Desc="PSRC" Group="Subsystem #1|BRIDGE|BRDG1|BRSRC" Units="MW" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=200498
+Output Desc="N16" Group="Subsystem #1|BRIDGE|BRDG1|NODEVs" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=200424
+Output Desc="N26" Group="Subsystem #1|BRIDGE|BRDG1|NODEVs" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=200428
+Output Desc="N36" Group="Subsystem #1|BRIDGE|BRDG1|NODEVs" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=20042C
+Output Desc="VSC1A" Group="Subsystem #1|BRIDGE|BRDG1|NODEVs" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=20049C
+Output Desc="VSC1B" Group="Subsystem #1|BRIDGE|BRDG1|NODEVs" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=2004A0
+Output Desc="VSC1C" Group="Subsystem #1|BRIDGE|BRDG1|NODEVs" Units="kV" Type=IEEE Min=-100.0000 Max=100.0000 Rack=2 Adr=2004A4
+Output Desc="CLKSPR1" Group="Subsystem #1|BRIDGE|BRDG1|CLOCKS" Units="clocks" Type=INT Min=0 Max=2000 Rack=2 Adr=2004A8
+Output Desc="SOCn" Group="Subsystem #1|Li-ion Battery|BatN" Units="%" Type=IEEE Min=-10.0000 Max=110.0000 Rack=2 Adr=2004AC
+Output Desc="SOCp" Group="Subsystem #1|Li-ion Battery|BatP" Units="%" Type=IEEE Min=-10.0000 Max=110.0000 Rack=2 Adr=2004B0
+Output Desc="INORTN" Group="Subsystem #1|Branch Currents" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=2004B4
+Output Desc="INORTN2" Group="Subsystem #1|Branch Currents" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=2004B8
+Output Desc="INORTP" Group="Subsystem #1|Branch Currents" Units="kA" Type=IEEE Min=-2.0000 Max=2.0000 Rack=2 Adr=2004BC
+Output Desc="intT" Group="Subsystem #1|CTLs|Inputs" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004C0
+Output Desc="VP" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200430
+Output Desc="time" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004C4
+Output Desc="Idcpfil" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200434
+Output Desc="Idcnfil" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200438
+Output Desc="VN" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20043C
+Output Desc="vrms" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004C8
+Output Desc="PML6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004CC
+Output Desc="QML6" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004D0
+Output Desc="VAVG" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004D4
+Output Desc="TOMEGA1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200440
+Output Desc="Start3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=2 Adr=2004D8
+Output Desc="Stop3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=2 Adr=2004DC
+Output Desc="VLNPEAK" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004E0
+Output Desc="SRCW" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004E4
+Output Desc="VNold" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004E8
+Output Desc="VPold" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004EC
+Output Desc="BLK" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=2 Adr=2004F0
+Output Desc="DBLK63" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=2 Adr=200444
+Output Desc="RST3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=INT Min=0 Max=1 Rack=2 Adr=2004F4
+Output Desc="PHIO" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004F8
+Output Desc="PHI3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=2004FC
+Output Desc="ALPHA" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200500
+Output Desc="TANGLE1" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200448
+Output Desc="VSRC1PR" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20044C
+Output Desc="VSRC2PR" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200450
+Output Desc="VSRC3PR" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200454
+Output Desc="Id3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200504
+Output Desc="Iq3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200508
+Output Desc="Vd3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20050C
+Output Desc="Vq3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200510
+Output Desc="pc" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200514
+Output Desc="qc" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200518
+Output Desc="Iq3FIL" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20051C
+Output Desc="Id3FIL" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200520
+Output Desc="Iref_q3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200524
+Output Desc="Iref_d3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200528
+Output Desc="VSRC1P" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200458
+Output Desc="VSRC2P" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20045C
+Output Desc="VSRC3P" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200460
+Output Desc="ERRq3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20052C
+Output Desc="ERRd3" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200530
+Output Desc="Vds" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200534
+Output Desc="Vqs" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200538
+Output Desc="VA" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20053C
+Output Desc="VB" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200540
+Output Desc="VC" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200544
+Output Desc="VCp" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200548
+Output Desc="VAp" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20054C
+Output Desc="VBp" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200550
+Output Desc="VCx" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200464
+Output Desc="VBx" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=200468
+Output Desc="VAx" Group="Subsystem #1|CTLs|Vars" Units=" " Type=IEEE Min=0.0000 Max=1.0000 Rack=2 Adr=20046C
+Output Desc="S1) VPraw" Group="Subsystem #1|Node Voltages" Type=IEEE Min=-375.5800 Max=375.5800 Units="kV" Rack=2 Adr=200470
+Output Desc="S1) VNraw" Group="Subsystem #1|Node Voltages" Type=IEEE Min=-375.5800 Max=375.5800 Units="kV" Rack=2 Adr=200474
+Output Desc="S1) test" Group="Subsystem #1|Node Voltages" Type=IEEE Min=-375.5800 Max=375.5800 Units="kV" Rack=2 Adr=200554
+Switch Desc="LED:VSC1A" Group="Subsystem #1|RISC D/A" Type=INT P0=-1 P1=1 InitValue=-1 OnText="ON" OffText="OFF" Rack=2 Adr=784000
+Switch Desc="LED:VSC1B" Group="Subsystem #1|RISC D/A" Type=INT P0=-2 P1=2 InitValue=-2 OnText="ON" OffText="OFF" Rack=2 Adr=784000
+Pushbutton Desc="Stop3" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 Rack=2 Adr=783010
+Pushbutton Desc="Start3" Group="Subsystem #1|CTLs|Inputs" Type=INT P0=0 P1=1 Rack=2 Adr=783014
+Slider Desc="PORD" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="MW" InitValue=-6.00000000 Min=-100.00000000 Max=100.00000000 Rack=2 Adr=783018
+Slider Desc="QORD" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="MVAR" InitValue=3.00000000 Min=-100.00000000 Max=100.00000000 Rack=2 Adr=78301C
+Slider Desc="VBAL" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="kV" InitValue=0.00000000 Min=0.00000000 Max=2.00000000 Rack=2 Adr=783020
+Slider Desc="KPID" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="volts" InitValue=1.00000000 Min=-100.00000000 Max=10000.00000000 Rack=2 Adr=783024
+Slider Desc="KIID" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="volts" InitValue=1.00000000 Min=-100.00000000 Max=10000.00000000 Rack=2 Adr=783028
+Slider Desc="KPIQ" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="volts" InitValue=1.00000000 Min=-100.00000000 Max=10000.00000000 Rack=2 Adr=78302C
+Slider Desc="KIIQ" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="volts" InitValue=1.00000000 Min=-100.00000000 Max=10000.00000000 Rack=2 Adr=783030
+Slider Desc="intT" Group="Subsystem #1|CTLs|Inputs" Type=IEEE Units="volts" InitValue=4000.00000000 Min=0.00000000 Max=100000000000.00000000 Rack=2 Adr=783034
+String Desc="CircuitTitle Annotation" Group="Annotation" InitValue="Test Circuit"
+String Desc="Draft file" Group="Annotation" InitValue="Draft file: C:\RTDS_USER\fileman\Yusheng_Luo_RTDS2\BESSTUNEPI\BESS.dft"
+String Desc="Draft file modification date" Group="Time tags" InitValue="2016/02/29 22:23:17"
+String Desc="Compile date" Group="Time tags" InitValue="2016/02/29 22:23:19"
+
+
+COMPONENT_TIMING_INFORMATION:
+timing_record: subsystem=1 processor=0 processor_type=PB5
+timing_record: subsystem=1 processor=1 processor_type=PB5
+timing_record: subsystem=1 processor=2 processor_type=PB5
+timing_record: subsystem=1 processor=3 processor_type=PB5
+timing_record: subsystem=1 processor=4 processor_type=PB5
+timing_record: subsystem=1 processor=5 processor_type=PB5
+timing_record: subsystem=1 processor=6 processor_type=PB5
+timing_record: subsystem=1 processor=7 processor_type=PB5
+timing_record: subsystem=1 processor_type=3PC processor_count=0
+timing_record: timing_name=rnet_ss1 component_type=risc_net subsystem=1 processor=0 processor_type=PB5 clock_index=1 enabled=false use=PSYS lf=120.000000 description=NetworkSolution
+timing_record: timing_name=BRDG1 component_type=risc_vsc_net1 subsystem=1 processor=2 processor_type=PB5 clock_index=1 enabled=false use=PSYS lf=120.000000 description=VSCNetwork
+timing_record: timing_name=BatN component_type=_li_ion subsystem=1 processor=3 processor_type=PB5 clock_index=1 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=BatP component_type=_li_ion subsystem=1 processor=3 processor_type=PB5 clock_index=2 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=Stop3 component_type=RISC_PB subsystem=1 processor=1 processor_type=PB5 clock_index=29 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=Start3 component_type=RISC_PB subsystem=1 processor=1 processor_type=PB5 clock_index=30 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=PORD component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=31 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=QORD component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=32 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=VBAL component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=33 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=KPID component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=34 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=KIID component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=35 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=KPIQ component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=36 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=KIIQ component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=37 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=intT component_type=RISC_SLIDER subsystem=1 processor=1 processor_type=PB5 clock_index=38 enabled=false use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=ARAMP component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=39 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=40 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=time_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=41 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=42 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=43 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=44 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=rms_meter component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=45 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=PLLT2v2 component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=46 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=pqmetX01 component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=47 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=48 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=49 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=50 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=51 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=52 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=53 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=54 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=55 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=56 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=57 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=58 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=59 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=60 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=61 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=62 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=srff_A component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=63 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=64 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=limits_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=65 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=66 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=rampg_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=67 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=68 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=intgl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=69 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=intgl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=70 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=dtdel_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=71 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=72 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_A component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=73 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=logicX01 component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=74 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_A component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=75 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=76 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=77 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_A component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=78 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=not_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=79 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=80 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=81 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=82 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=anglefix_ component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=83 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=limits_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=84 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=anglefix_ component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=85 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sine3_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=86 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=anglefix_ component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=87 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=abc2dq0_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=88 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=89 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=abc2dq0_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=90 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=91 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=92 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=93 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=94 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=realpl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=95 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=96 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=97 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=xdivy_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=98 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=xdivy_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=99 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sine3_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=100 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=101 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=102 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=103 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=104 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=105 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=mul_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=106 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=intgl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=107 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=intgl_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=108 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=109 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=110 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=111 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=112 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=gain_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=113 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=dq02abc_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=114 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=115 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=116 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=sum3_B component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=117 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=xdivy_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=118 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=xdivy_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=119 enabled=true use=CTLS lf=0.000000 logical_proc=1
+timing_record: timing_name=xdivy_cb component_type=RISC_CMODEL subsystem=1 processor=1 processor_type=PB5 clock_index=120 enabled=true use=CTLS lf=0.000000 logical_proc=1

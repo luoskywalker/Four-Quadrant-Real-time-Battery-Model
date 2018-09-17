@@ -1,0 +1,57 @@
+MESSAGES:
+
+Compiling C:\RTDS_USER\fileman\Yusheng_Luo_RTDS2\BESSTUNEPI\BESS.dft for RTDS rack 2...
+Nodes and Wires...
+
+    Compiling subsystem ''
+    Electrical nodes found: 3
+
+
+Running In Pre-Processor Mode (RTDSPCPP Inclusion)
+
+
+
+
+REAL-TIME DIGITAL SIMULATOR POWER SYSTEM COMPILER
+(c) Copyright 1994-2008  RTDS Technologies Inc.
+
+Version C10.04
+Compilation Time: 15:55:28  Mar 11 2015
+
+
+              Data file name: BESS.dtp
+               Inf file name: tmp.BESS.inf
+               Map file name: BESS.map
+            Output file name: BESS_r#
+
+Configuration file directory: .
+     Configuration file name: C:\RSCAD\HDWR\config_file_02.txt
+
+        Title from data file: "Test Circuit"
+
+
+      Library file directory: C:\RSCAD/RTDS
+           Library file name: rt_sim.lib
+        Library file version: 62.57
+
+      Library file directory: C:\RSCAD/RTDS
+           Library file name: rpc.lib
+        Library file version: 24.50
+
+Time-step used = 50.000000 us 
+
+
+
+Network Conductance Matrix Overlay Statistics:
+        Subsystem   1   contains   0   matrix overlays.
+
+
+Control Component Statistics:
+        Subsystem   1   contains   120   control components.
+
+
+End of process. Peak memory usage = 348282880 bytes
+
+
+rtc terminated successfully.
+
